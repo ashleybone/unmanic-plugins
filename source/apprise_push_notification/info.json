@@ -1,0 +1,15 @@
+{
+    "author": "Ashley Bone",
+    "compatibility": [
+        2
+    ],
+    "description": "Send push notifications using Apprise via your platform of choice when tasks are completed.",
+    "icon": "/home/ashley/.unmanic/plugins/push_notification/icon.png",
+    "id": "apprise_push_notification",
+    "name": "Apprise Push Notification",
+    "priorities": {
+        "on_postprocessor_task_results": 0
+    },
+    "tags": "post-processor",
+    "version": "0.0.1"
+}
