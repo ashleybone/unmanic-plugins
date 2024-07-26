@@ -4,12 +4,12 @@
         2
     ],
     "description": "Send push notifications using Apprise via your platform of choice when tasks are completed.",
-    "icon": "/home/ashley/.unmanic/plugins/push_notification/icon.png",
+    "icon": "icon.png",
     "id": "apprise_push_notification",
     "name": "Apprise Push Notification",
     "priorities": {
         "on_postprocessor_task_results": 0
     },
-    "tags": "post-processor",
+    "tags": "post-processor,notify",
     "version": "0.0.1"
 }
