@@ -1,0 +1,26 @@
+{
+    "repo": {
+        "id": "repository.ashleybone",
+        "name": "ashleybone/unmanic-plugins",
+        "icon": "",
+        "repo_data_directory": "https://raw.githubusercontent.com/ashleybone/unmanic-plugins/repo/",
+        "repo_data_url": "https://raw.githubusercontent.com/ashleybone/unmanic-plugins/repo/repo.json"
+    },
+    "plugins": [
+        {
+            "author": "Ashley Bone",
+            "compatibility": [
+                2
+            ],
+            "description": "Send push notifications using Apprise via your platform of choice when tasks are completed.",
+            "icon": "icon.png",
+            "id": "apprise_push_notification",
+            "name": "Apprise Push Notification",
+            "priorities": {
+                "on_postprocessor_task_results": 0
+            },
+            "tags": "post-processor,notify",
+            "version": "0.0.1"
+        }
+    ]
+}
